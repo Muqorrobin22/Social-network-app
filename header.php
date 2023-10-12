@@ -36,8 +36,8 @@ _INIT;
     <body>
         <div data-role="page">
             <div data-role="header">
-            <div id="logo">
-                R <img id="robin" src="robin.gif"  alt="logo"> bin's Nest
+            <div id="logo" class="center">
+                Muqorr <img id="robin" src="robin.gif"  alt="logo"> bin's Nest
             </div>
             <div class="username">$userstr</div>
             </div>
@@ -72,7 +72,7 @@ _MAIN;
         <div class="center">
             <a data-role="button" data-inline="true" data-icon="home" 
             data-transition="slide" href="index.php?r=$randstr">Home</a>
-            <a data-role="button" data-inline="true" data-icon="plut" 
+            <a data-role="button" data-inline="true" data-icon="plus" 
             data-transition="slide" href="signup.php?r=$randstr">Sign up</a>
             <a data-role='button' data-inline='true' data-icon='check'
             data-transition="slide" href="login.php?r=$randstr">Log In</a>
