@@ -12,7 +12,7 @@
         createTable('members', "
         user varchar(16),
         pass varchar(16),
-        index(user(6)");
+        index(user(6))");
 
         createTable('messages', "
         id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -21,14 +21,14 @@
         pm CHAR(1),
         time INT UNSIGNED,
         message VARCHAR(4096),
-        INDEX(auth(6),
-        INDEX(recip(6)");
+        INDEX(auth(6)),
+        INDEX(recip(6))");
 
         createTable("friends", "
         user VARCHAR(16),
         friend VARCHAR(16),
         INDEX(user(6)),
-        INDEX(friend(6)");
+        INDEX(friend(6))");
 
         createTable('profiles',
             'user VARCHAR(16),
